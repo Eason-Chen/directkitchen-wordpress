@@ -1,0 +1,192 @@
+@import "css/reset.css";
+@import "css/basic.css";
+@charset "UTF-8";
+/*
+Them Name: Direct Kitchen wordpress them
+Author: 3A - Eason
+Version: 1.0
+ */
+
+/* header and footer set start */
+.min_height{
+	min-height: 500px;
+}
+.slider,
+header,
+footer{
+	width: 100%;
+	min-width: 920px;
+}
+/* header and footer set end */
+
+/* header start */
+header{
+	height: 105px;
+	margin-bottom: 25px;
+}
+.logo{
+	float: left;
+	width: 252px;
+	height: 105px;
+	background: url(imgs/logo.jpg) no-repeat;
+}
+nav{
+	float: left;
+	margin: 0;
+	padding: 0;
+	margin-top: 88px;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	padding: 0 15px;
+}
+nav ul li a{
+	text-transform: uppercase;
+}
+nav ul li:last-of-type{
+	padding-right: 0;
+}
+nav ul li:first-of-type{
+	padding-left: 0;
+}
+.open{
+	float: right;
+	height: 88px;
+	margin-top: 17px;
+	color: #3069BA;
+	text-align: right;
+}
+.open .phone{
+	height: 28px;
+	background: url(imgs/phone.png) no-repeat;
+	line-height: 22px;
+	font-size: 26px;
+	font-weight: bold;
+	text-indent: 35px;
+}
+.open p{
+	margin: 0;
+	padding: 0;
+	text-align: right;
+}
+/* header end */
+
+/* slider start */
+.slider,
+.slider img{
+  width: inherit;
+  height: 500px;
+}
+/* slider end */
+
+/* items start */
+.homeitem{
+	float: left;
+	width: 290px;
+	height: 200px;
+	margin-right: 25px;
+}
+.homeitem:last-of-type{
+	margin-right: 0;
+}
+.cover{
+	position: relative;
+	top: -30px;
+	height: 30px;
+	width: 290px;
+	background: url(imgs/c.png) no-repeat;
+}
+.cover a{
+	display: block;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.cover a:hover{
+	color: #3069BA;
+}
+/* items end */
+
+/* about article start */
+hr{
+	margin-bottom: 20px;
+}
+article{
+	float: left;
+	width: 500px;
+}
+.about_thum{
+	float: right;
+	width: 400px;
+}
+/* about article end */
+
+/* product start */
+.product{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.product .product_img{
+	float: left;
+	width: 290px;
+	height: 200px;
+}
+.product article{
+	float: right;
+	width: 610px;
+	height: 200px;
+}
+/* product end */
+
+/* single page start */
+.single article{
+	width: 100%;
+}
+/* single page end */
+
+/* address start */
+address{
+	float: left;
+	width: 350px;
+}
+.map{
+	float: right;
+	width: 550px;
+}
+.contact_form{
+	margin-top: 30px;
+}
+/* address end */
+
+/* footer start */
+footer{
+	margin: 25px 0;
+}
+.copy{
+	text-align: center;
+}
+/* footer end */
+
+/* form set start */
+.ninja-forms-required-items{
+	display: none;
+}
+input,textarea{
+	outline: none;
+	padding: 10px;
+}
+.send{
+	border: 0;
+	background: #396DB5;
+	padding: 5px 15px;
+	color: #fff;
+}
+/* form set end */
